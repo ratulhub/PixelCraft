@@ -1,0 +1,47 @@
+:root {
+  /* Surfaces */
+  --bg-main:        #F8F9F8;
+  --surface-primary:#FFFFFF;
+  --surface-secondary:#F1F3F1;
+  --surface-accent: #EAF2EC;
+
+  /* Text */
+  --text-primary:   #202522;
+  --text-secondary: #777F79;
+  --text-muted:     #A0A6A1;
+
+  /* Borders */
+  --border-subtle:  #E7EAE7;
+  --border-strong:  #D4DAD4;
+
+  /* Accent — restrained green */
+  --accent-primary: #426B54;
+  --accent-soft:    #DCEADF;
+  --accent-hover:   #355844;
+  --success:        #347A50;
+
+  /* Semantic */
+  --danger-soft:    #FDF0EE;
+  --danger-text:    #A8443A;
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+
+  /* Shadows — used sparingly */
+  --shadow-sm: 0 1px 2px rgba(32, 37, 34, 0.04);
+  --shadow-md: 0 4px 16px rgba(32, 37, 34, 0.06);
+
+  /* Spacing scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+}
+

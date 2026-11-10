@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;450;500;600&family=Manrope:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --font-display:   'Manrope', system-ui, -apple-system, sans-serif;
+  --font-body:      'Inter', system-ui, -apple-system, sans-serif;
+  --font-editorial: 'DM Serif Display', Georgia, serif;
+  --font-mono:      'IBM Plex Mono', 'SF Mono', monospace;
+}
+
+/* Display — hero headline */
+.type-display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.25rem, 5vw, 4.25rem);
+  line-height: 1.08;
+  letter-spacing: -0.03em;
+  color: var(--text-primary);
+}
+
+/* Editorial serif — section intros, pull quotes */
+.type-editorial {
+  font-family: var(--font-editorial);
+  font-weight: 400;
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  line-height: 1.2;
+  color: var(--text-primary);
+}
+
+/* Section label — small uppercase mono */
+.type-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Body */
+.type-body {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* Technical — file sizes, format badges */
+.type-mono {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
